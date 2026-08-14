@@ -1,0 +1,10 @@
+# Python dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+streamlit>=1.31.0
+python-multipart>=0.0.9
+PyMuPDF>=1.23.6
+groq>=0.4.2
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.5.0
