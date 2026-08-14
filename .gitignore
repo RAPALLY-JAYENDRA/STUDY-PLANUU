@@ -1,0 +1,45 @@
+# ── Python ──────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+lib/
+lib64/
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# ── Streamlit ────────────────────────────
+.streamlit/
+
+# ── Misc ─────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+.idea/
+.vscode/
+*.ipynb_checkpoints/
+node_modules/
+
+# ── Uploads / local data ─────────────────
+uploads/
+*.pdf
