@@ -1,0 +1,16 @@
+name = "study-planner-worker"
+main = "index.js"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# ── Workers AI binding ─────────────────────────────────────────────────────
+# This gives your worker access to Cloudflare's AI models for free
+[ai]
+binding = "AI"
+
+# ── Optional: restrict to your Railway domain ──────────────────────────────
+# [triggers]
+# crons = []
+
+# ── Routes (optional — set after deploy if you use a custom domain) ────────
+# routes = [{ pattern = "study-planner.yourdomain.com/*", zone_name = "yourdomain.com" }]
